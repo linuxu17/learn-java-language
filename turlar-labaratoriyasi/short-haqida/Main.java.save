@@ -1,0 +1,35 @@
+/*
+    -Short java tiling primitiv turlari sirasiga kiradigan tip
+    -Short obektining qiymatini short tipida ifoda etadi
+    -Short ning primitiv turining  xotira xajmi 2 bayt
+    -primitiv turning qiymatlar diapazoni -32768 dan 32767 gacha
+
+    STANDART METODLAR
+
+    Short.BYTES
+    Short.MIN_VALUE
+    Short.MAX_VALUE
+    Short.TYPE
+    byteValue()
+    shortValue()
+    intValue()
+    floatValue()
+    doubleValue()
+    longValue()
+    compare(short a, short b)
+    compareTo(Short object)
+*/
+
+
+public class Main{
+
+    public static void main(String[] args){
+
+    String s = "salom";
+
+    System.out.println(Short.MIN_VALUE);
+    System.out.println(Short.MAX_VALUE);
+    System.out.println(s.TYPE);
+
+    }
+}

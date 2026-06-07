@@ -44,6 +44,7 @@ public static void main(String[] args){
     byte qiymat1 = 7, qiymat2 = 10;
 
     System.out.println(Byte.compare(qiymat1, qiymat2)); // ikkita byte qiymat orasidagi farqni qaytaradi birinchi qiymatdan ikkinchi qiymatni ayiradi.
-
+    System.out.println(Byte.MIN_VALUE); // Byte ning mumkin bo'lgan eng kichik qiymati constanta
+    System.out.println(Byte.MAX_VALUE); // Bytening mumkin bo'lgan eng katta qiymati constanta
     }
 }
